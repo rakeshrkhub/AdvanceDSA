@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4157e148-22d1-48ef-8eca-a3d94b8e0f77" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/basicDSA/AFibonacciNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dynamicProgramming/AFibboNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/basicDSA/BPrintAllSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dynamicProgramming/BFrogJumpWithKDistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dynamicProgramming/CHouseRobberOrMaxSumOfNonAdjacent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,13 +41,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.AFibboNumber">
+}</component>
+  <component name="RunManager" selected="Application.CHouseRobberOrMaxSumOfNonAdjacent">
     <configuration name="AFibboNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.dynamicProgramming.AFibboNumber" />
       <module name="AdvanceDSA" />
@@ -60,8 +61,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AFibonacciNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.basicDSA.AFibonacciNumber" />
+    <configuration name="BFrogJump" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dynamicProgramming.BFrogJump" />
+      <module name="AdvanceDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dynamicProgramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BFrogJumpWithKDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dynamicProgramming.BFrogJumpWithKDistance" />
+      <module name="AdvanceDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dynamicProgramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BPrintAllSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.basicDSA.BPrintAllSubsequence" />
       <module name="AdvanceDSA" />
       <extension name="coverage">
         <pattern>
@@ -73,10 +100,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CHouseRobberOrMaxSumOfNonAdjacent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dynamicProgramming.CHouseRobberOrMaxSumOfNonAdjacent" />
+      <module name="AdvanceDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dynamicProgramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CHouseRobberOrMaxSumOfNonAdjacent" />
+        <item itemvalue="Application.BPrintAllSubsequence" />
+        <item itemvalue="Application.BFrogJumpWithKDistance" />
+        <item itemvalue="Application.BFrogJump" />
         <item itemvalue="Application.AFibboNumber" />
-        <item itemvalue="Application.AFibonacciNumber" />
       </list>
     </recent_temporary>
   </component>
