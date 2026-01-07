@@ -31,7 +31,7 @@ public class DGridUniquePath {
     Let's start the solution with Recursion. We'll start from the finish point and go till start or we can also start from start
      point and go till end. Both the way are fine/same.
     Time Complexity: O(2^(mxn)) since every cell has 2 options.
-    Space Complexity: O(m-1,n-1) recursion stack space
+    Space Complexity: O(mxn) recursion stack space
      */
 
     private static int getAllUniquePaths(int row, int col){
@@ -51,7 +51,7 @@ public class DGridUniquePath {
     Approach 2: MEMOIZATION
     Since we are solving overlapping sub problems in recursion solution so we can think of MEMOIZATION
     Time Complexity: O(mxn) since we are only calculating each cell exactly one time.
-    Space Complexity: O(m-1,n-1) recursion stack  + O(mxn) for using DP array
+    Space Complexity: O(mxn) recursion stack  + O(mxn) for using DP array
      */
 
     private static int getAllUniquePaths(int row, int col, int[][] dp){

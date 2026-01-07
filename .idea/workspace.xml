@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4157e148-22d1-48ef-8eca-a3d94b8e0f77" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dynamicProgramming/CHouseRobber2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dynamicProgramming/CNinjaTraining.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dynamicProgramming/DGridUniquePath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dynamicProgramming/DGridUniquePath2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dynamicProgramming/EMinimumPathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dynamicProgramming/ETriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dynamicProgramming/FCherryPickUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dynamicProgramming/FMinMaxFallingPath.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dynamicProgramming/DGridUniquePath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dynamicProgramming/DGridUniquePath.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,66 +44,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/2026/January/project&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "F:/2026/January/project"
   }
-}</component>
-  <component name="RunManager" selected="Application.DGridUniquePath2">
-    <configuration name="BPrintAllSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.basicDSA.BPrintAllSubsequence" />
-      <module name="AdvanceDSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.basicDSA.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CHouseRobberOrMaxSumOfNonAdjacent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.dynamicProgramming.CHouseRobberOrMaxSumOfNonAdjacent" />
-      <module name="AdvanceDSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.dynamicProgramming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CNinjaTraining" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.dynamicProgramming.CNinjaTraining" />
-      <module name="AdvanceDSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.dynamicProgramming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DGridUniquePath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.dynamicProgramming.DGridUniquePath" />
-      <module name="AdvanceDSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.dynamicProgramming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}]]></component>
+  <component name="RunManager" selected="Application.FCherryPickUp">
     <configuration name="DGridUniquePath2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.dynamicProgramming.DGridUniquePath2" />
       <module name="AdvanceDSA" />
@@ -115,13 +66,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EMinimumPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dynamicProgramming.EMinimumPathSum" />
+      <module name="AdvanceDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dynamicProgramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ETriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dynamicProgramming.ETriangle" />
+      <module name="AdvanceDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dynamicProgramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FCherryPickUp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dynamicProgramming.FCherryPickUp" />
+      <module name="AdvanceDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dynamicProgramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FMinMaxFallingPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dynamicProgramming.FMinMaxFallingPath" />
+      <module name="AdvanceDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dynamicProgramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FCherryPickUp" />
+        <item itemvalue="Application.FMinMaxFallingPath" />
+        <item itemvalue="Application.ETriangle" />
+        <item itemvalue="Application.EMinimumPathSum" />
         <item itemvalue="Application.DGridUniquePath2" />
-        <item itemvalue="Application.DGridUniquePath" />
-        <item itemvalue="Application.CNinjaTraining" />
-        <item itemvalue="Application.CHouseRobberOrMaxSumOfNonAdjacent" />
-        <item itemvalue="Application.BPrintAllSubsequence" />
       </list>
     </recent_temporary>
   </component>
