@@ -23,10 +23,10 @@ public class HCountSubsetWithSumK {
             return 0;
         }
         if(dp[index][target] !=-1) return dp[index][target];
-        int notPick=getTotalSubsequence(arr,index-1,target);
+        int notPick=getTotalSubsequence(arr,index-1,target,dp);
         int pick=0;
         if(arr[index]<=target)
-            pick=getTotalSubsequence(arr,index-1,target-arr[index]);
+            pick=getTotalSubsequence(arr,index-1,target-arr[index],dp);
         return dp[index][target]=pick+notPick;
     }
     public static int getTotalSubsequenceTabulation(int[] arr, int target){
