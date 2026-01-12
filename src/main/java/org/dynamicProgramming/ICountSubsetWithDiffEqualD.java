@@ -14,9 +14,10 @@ public class ICountSubsetWithDiffEqualD {
     Explanation: The subsets are [1, 3] and [2, 4], [1, 2, 3] and [4].
      */
     public static int getTotalSubsequence(int[] arr, int index, int target,int[][] dp){
-        if(target==0) return 1;
+
         if(index==0){
-            if(arr[index]==target) return 1;
+            if(arr[index]==target && arr[index]==0) return 2;
+            if(arr[index]==target || target==0) return 1;
             return 0;
         }
         if(dp[index][target] !=-1) return dp[index][target];
@@ -97,8 +98,8 @@ Space Complexity: O(K), extra space is used for storing the dp array.
         return dp[K];
     }
     public static void main(String[] args) {
-        int[] arr={5,2,6,4};
-        int givenDiff=3;
+        int[] arr={1,0};
+        int givenDiff=1;
         System.out.println(getCountOfSubsetPartitionWithDiffD(arr,givenDiff));
     }
 }
