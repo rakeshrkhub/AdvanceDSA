@@ -1,0 +1,25 @@
+# Introduction to graph
+
+A graph in data structures is a non-linear way to represent relationships
+between entities (objects) using vertices (nodes) and connecting edges (links)
+
+Types of Graph:
+1. Directed Graph   2. Undirected Graph
+
+* Directed graph contains undirected edges, nodes/vertex.
+* Directed graph contains directed edges which may be unidirectional/bidirectional.
+
+> Graph may be CYCLIC or ACYCLIC.
+
+# Degree in Graph:
+    The degree of a vertex (or node) is the number of edges connected to it.
+    Note: Total degree of a graph= 2 x (no of edges).
+# For Directed graph:
+    1. In Degree: No of incoming edges on a vertex.
+    2. Out Degree: No of outgoing edges on a vertex.
+
+# Edge Weight:
+    * The value assign to the edge is called edge weight.
+    * If weight is not assign to any edge then will consider it as 1.
+
+
